@@ -29,7 +29,7 @@ def setup():
     
     
 #when any key is pressed, the background and all shapes will be redrawn with darker colours. Except for the moon, which will turn white.
-def mouseClicked():
+def keyPressed():
     background(0, 0, 120)
     #sets bg colour to darker blue
     
@@ -53,7 +53,8 @@ def mouseClicked():
     fill(0, 155, 0)
     square(350, 340, 60)
     #draws a green square on the right
-    
+
+#does nothing
 def draw():
     return
     
